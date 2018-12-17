@@ -1,8 +1,6 @@
 from django.http import HttpResponse
 from django.shortcuts import render
 
-from .models import Post
-
 import os
 import sys
 import urllib.request
