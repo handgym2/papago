@@ -1,0 +1,12 @@
+<html>
+    <head>
+        <title>Ola's blog</title>
+    </head>
+    <body>
+            {% for posts in posts %}
+        <p>{{posts.name}}</p>
+        <p>   <a href="link/">{{posts.text}}</a>   </p>
+        <p>--------------</p>
+        {% endfor %}
+    </body>
+</html> 
